@@ -14,7 +14,13 @@ end
 
 function CAddonTemplateGameMode:InitGameMode()
 
-    print("Addon iniciado")
+    GameRules:SetCustomGameTeamMaxPlayers(DOTA_TEAM_GOODGUYS, 5)
+    GameRules:SetCustomGameTeamMaxPlayers(DOTA_TEAM_BADGUYS, 0)
+    GameRules:SetTimeOfDay(0.0)
+    GameRules:SetUseUniversalShopMode(true)
+
+    GameRules:GetGameModeEntity():SetTopBarTeamValuesOverride(true)
+    GameRules:GetGameModeEntity():SetTopBarTeamValuesVisible(false)
 
     GameRules:SetHeroSelectionTime(25)
     GameRules:SetPreGameTime(5)
@@ -32,43 +38,23 @@ function CAddonTemplateGameMode:OnThink()
 
     local currentTime = GameRules:GetGameTime()
 
-    -- Primeira wave
+    -- Wave logic
     if not self.waveStarted then
         self.waveStarted = true
         self:StartWave()
     end
 
-    -- Próxima wave com delay
     if nextWaveTime and currentTime >= nextWaveTime then
         nextWaveTime = nil
         self:StartWave()
     end
 
-    -- Vision global (executa apenas uma vez)
     if not self.visionApplied then
         self.visionApplied = true
         ApplyVisionToAllHeroes()
     end
 
     return 0.5
-end
-
-function ApplyVisionToAllHeroes()
-
-    for playerID = 0, DOTA_MAX_TEAM_PLAYERS-1 do
-
-        if PlayerResource:IsValidPlayerID(playerID) then
-
-            local hero = PlayerResource:GetSelectedHeroEntity(playerID)
-
-            if hero and not hero:IsNull() then
-
-                hero:SetDayTimeVisionRange(1200)
-                hero:SetNightTimeVisionRange(1200)
-
-            end
-        end
-    end
 end
 
 function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)

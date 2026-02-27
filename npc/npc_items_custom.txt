@@ -1,3 +1,18 @@
-"DOTAAbilities"
+"DOTAItems"
 {
+    "item_mkb_2"
+    {
+        "BaseClass" "item_monkey_king_bar"
+
+        "ItemCost" "0"
+
+        "AbilityTextureName" "item_monkey_king_bar"
+
+        "AbilitySpecial"
+        {
+            "bonus_damage" "80"
+            "bonus_attack_speed" "30"
+            "proc_damage" "160"
+        }
+    }
 }
