@@ -7,9 +7,6 @@ local waveNumber = 1
 local waveCooldown = false
 local nextWaveTime = nil
 
-
-
--- Inicializa o addon
 function Activate()
     GameRules.AddonTemplate = CAddonTemplateGameMode()
     GameRules.AddonTemplate:InitGameMode()
@@ -119,7 +116,7 @@ function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)
                     upskill1:SetLevel(4)
                 end
 
-				local upskill2 = unit:FindAbilityByName("abaddon_frostmourne")
+				local upskill2 = unit:FindAbilityByName("axe_counter_helix")
                 if upskill2 then
                     upskill2:SetLevel(4)
                 end
@@ -144,29 +141,9 @@ function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)
                     upskill6:SetLevel(4)
                 end
 
-                local upskill7 = unit:FindAbilityByName("centaur_return")
-                if upskill7 then
-                    upskill7:SetLevel(4)
-                end
-
                 local upskill8 = unit:FindAbilityByName("dawnbreaker_luminosity")
                 if upskill8 then
                     upskill8:SetLevel(4)
-                end
-
-                local upskill9 = unit:FindAbilityByName("")
-                if upskill9 then
-                    upskill9:SetLevel(4)
-                end
-
-                local upskill10 = unit:FindAbilityByName("")
-                if upskill10 then
-                    upskill10:SetLevel(4)
-                end
-
-                local upskill11 = unit:FindAbilityByName("monkey_king_jingu_mastery")
-                if upskill11 then
-                    upskill11:SetLevel(4)
                 end
 
                 local upskill12 = unit:FindAbilityByName("spirit_breaker_greater_bash")
@@ -202,11 +179,6 @@ function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)
                 local upskill18 = unit:FindAbilityByName("spectre_dispersion")
                 if upskill18 then
                     upskill18:SetLevel(4)
-                end
-
-                local upskill19 = unit:FindAbilityByName("")
-                if upskill19 then
-                    upskill19:SetLevel(4)
                 end
 
                 local upskill20 = unit:FindAbilityByName("skeleton_king_mortal_strike")
@@ -294,11 +266,6 @@ function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)
                     upskill36:SetLevel(4)
                 end
 
-                local upskill37 = unit:FindAbilityByName("")
-                if upskill37 then
-                    upskill37:SetLevel(4)
-                end
-
                 local upskill38 = unit:FindAbilityByName("bloodseeker_thirst")
                 if upskill38 then
                     upskill38:SetLevel(4)
@@ -317,11 +284,6 @@ function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)
                 local upskill41 = unit:FindAbilityByName("naga_siren_rip_tide")
                 if upskill41 then
                     upskill41:SetLevel(4)
-                end
-
-                local upskill42 = unit:FindAbilityByName("troll_warlord_berserkers_rage")
-                if upskill42 then
-                    upskill42:SetLevel(4)
                 end
                 
                 local upskill43 = unit:FindAbilityByName("phantom_assassin_coup_de_grace")
@@ -676,7 +638,7 @@ function SpawnWave19()
 end
 
 function SpawnWave20()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave20", 6)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave20")
 end
 
 function SpawnWave21()
@@ -720,23 +682,184 @@ function SpawnWave30()
 end
 
 function SpawnWave31()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragon_range_wave34")
+
+    if Wave31Started then return end
+    Wave31Started = true
+
+    local waves = {
+        {
+            "npc_dota_neutral_kobold_melee_wave1"
+        },
+        {
+            "npc_dota_neutral_creep_melee_wave2",
+            "npc_dota_neutral_creep_range_wave2"
+        },
+        {
+            "npc_dota_neutral_gnoll_range_wave3"
+        },
+        {
+            "npc_dota_neutral_golem_melee_wave4"
+        },
+        {
+            "npc_dota_neutral_summuner_range_wave5"
+        },
+        {
+            "npc_dota_neutral_dragon_range_wave6"
+        },
+        {
+            "npc_dota_neutral_siege_range_wave7"
+        },
+        {
+            "npc_dota_neutral_creep_melee_wave8",
+            "npc_dota_neutral_creep_range_wave8"
+        },
+        {
+            "npc_dota_neutral_satyr_range_wave9"
+        },
+        {
+            "npc_dota_neutral_roshan_melee_wave10"
+        }
+    }
+
+    local index = 1
+    local spawnDelay = 5
+
+    GameRules:GetGameModeEntity():SetContextThink("Wave31Think", function()
+
+        if index > #waves then
+            return nil
+        end
+
+        for _, unitName in ipairs(waves[index]) do
+            GameRules.AddonTemplate:SpawnEnemy(unitName, 1)
+        end
+
+        index = index + 1
+
+        return spawnDelay
+
+    end, 0)
+
 end
 
 function SpawnWave32()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave35")
+
+    if Wave32Started then return end
+    Wave32Started = true
+
+    local waves = {
+        {
+            "npc_dota_neutral_priest_range_wave11"
+        },
+        {
+            "npc_dota_neutral_golem_melee_wave12"
+        },
+        {
+            "npc_dota_neutral_ghost_range_wave13"
+        },
+        {
+            "npc_dota_neutral_wolf_melee_wave14"
+        },
+        {
+            "npc_dota_neutral_harpy_range_wave15"
+        },
+        {
+            "npc_dota_neutral_centaur_melee_wave16"
+        },
+        {
+            "npc_dota_neutral_frog_range_wave17"
+        },
+        {
+            "npc_dota_neutral_kobold_melee_wave18"
+        },
+        {
+            "npc_dota_neutral_troll_range_wave19"
+        },
+        {
+            "npc_dota_neutral_roshan_melee_wave20"
+        }
+    }
+
+    local index = 1
+    local spawnDelay = 5
+
+    GameRules:GetGameModeEntity():SetContextThink("Wave32Think", function()
+
+        if index > #waves then
+            return nil
+        end
+
+        for _, unitName in ipairs(waves[index]) do
+            GameRules.AddonTemplate:SpawnEnemy(unitName, 1)
+        end
+
+        index = index + 1
+
+        return spawnDelay
+
+    end, 0)
+
 end
 
---[[function SpawnWave31()
+function SpawnWave33()
 
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1", 1)
+    if Wave33Started then return end
+    Wave33Started = true
 
-    GameRules:GetGameModeEntity():SetContextThink("Wave8Delay", function()
+    local waves = {
+        {
+            "npc_dota_neutral_harpy_range_wave21"
+        },
+        {
+            "npc_dota_neutral_furbolg_melee_wave22"
+        },
+        {
+            "npc_dota_neutral_dragonspawn_range_wave23"
+        },
+        {
+            "npc_dota_neutral_satyr_melee_wave24"
+        },
+        {
+            "npc_dota_neutral_spawn_range_wave25"
+        },
+        {
+            "npc_dota_neutral_ogre_melee_wave26"
+        },
+        {
+            "npc_dota_neutral_lizard_range_wave27"
+        },
+        {
+            "npc_dota_neutral_vulture_melee_wave28"
+        },
+        {
+            "npc_dota_neutral_lizard_range_wave29"
+        },
+        {
+            "npc_dota_neutral_roshan_melee_wave30"
+        }
+    }
 
-        GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1", 1)
+    local index = 1
+    local spawnDelay = 5
 
-        return nil
+    GameRules:GetGameModeEntity():SetContextThink("Wave33Think", function()
 
-    end, 10)
+        if index > #waves then
+            return nil
+        end
 
-end]]
+        for _, unitName in ipairs(waves[index]) do
+            GameRules.AddonTemplate:SpawnEnemy(unitName, 1)
+        end
+
+        index = index + 1
+
+        return spawnDelay
+
+    end, 0)
+
+end
+
+function SpawnWave34()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragon_range_wave34")
+end

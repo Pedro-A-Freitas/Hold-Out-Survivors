@@ -11,7 +11,7 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_kobold/kobold_c/n_creep_kobold_c.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
@@ -23,20 +23,20 @@
 		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"3"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"50"		// Damage range min.
+		"AttackDamageMax"			"50"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -58,9 +58,9 @@
 		// Status
 		//----------------------------------------------------------------
 		"StatusHealth"				"1000"		// Base health.
-		"StatusHealthRegen"			"10"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -90,31 +90,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/lane_creeps/creep_bad_melee/creep_bad_melee.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"6"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"55"		// Damage range min.
+		"AttackDamageMax"			"55"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -135,10 +136,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"1300"		// Base health.
+		"StatusHealthRegen"			"2"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -168,31 +169,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/lane_creeps/creep_bad_ranged/lane_dire_ranged.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"6"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"55"		// Damage range min.
+		"AttackDamageMax"			"55"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"500"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/base_attacks/ranged_badguy.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -215,10 +217,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"1300"		// Base health.
+		"StatusHealthRegen"			"2"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -248,31 +250,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_gnoll/n_creep_gnoll.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"9"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"60"		// Damage range min.
+		"AttackDamageMax"			"60"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"500"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/neutral_fx/gnoll_base_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -295,10 +298,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"1690"		// Base health.
+		"StatusHealthRegen"			"3"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -328,31 +331,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_golem_b/n_creep_golem_b.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"12"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"66"		// Damage range min.
+		"AttackDamageMax"			"66"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -373,10 +377,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"2197"		// Base health.
+		"StatusHealthRegen"			"4"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -406,31 +410,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_troll_dark_b/n_creep_troll_dark_b.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"15"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"73"		// Damage range min.
+		"AttackDamageMax"			"73"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"600"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/base_attacks/ranged_badguy.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -453,10 +458,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"2856"		// Base health.
+		"StatusHealthRegen"			"5"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -486,31 +491,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_black_dragon/n_creep_black_dragon.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"18"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"81"		// Damage range min.
+		"AttackDamageMax"			"81"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"600"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/neutral_fx/black_dragon_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -533,10 +539,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"3713"		// Base health.
+		"StatusHealthRegen"			"6"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -566,31 +572,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/lane_creeps/creep_bad_siege/creep_bad_siege.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"21"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"89"		// Damage range min.
+		"AttackDamageMax"			"89"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/base_attacks/ranged_siege_bad.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -613,10 +620,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"4826"		// Base health.
+		"StatusHealthRegen"			"7"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -646,31 +653,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/lane_creeps/creep_bad_melee/creep_bad_flagbearer_mega.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"24"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"98"		// Damage range min.
+		"AttackDamageMax"			"98"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -691,10 +699,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"6274"		// Base health.
+		"StatusHealthRegen"			"8"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -724,31 +732,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/lane_creeps/creep_bad_ranged/lane_dire_ranged_mega.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"24"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"98"		// Damage range min.
+		"AttackDamageMax"			"98"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/base_attacks/ranged_badguy.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -771,10 +780,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"6274"		// Base health.
+		"StatusHealthRegen"			"8"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -804,31 +813,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_satyr_b/n_creep_satyr_b.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"antimage_mana_break"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_25"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"27"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"108"		// Damage range min.
+		"AttackDamageMax"			"108"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/neutral_fx/satyr_trickster_projectile.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -851,10 +861,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"8156"		// Base health.
+		"StatusHealthRegen"			"9"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -884,11 +894,12 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/roshan/roshan.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
@@ -896,19 +907,20 @@
 		"Ability2"					"spirit_breaker_greater_bash"			// Ability 2
 		"Ability3"					"slardar_bash"			// Ability 3
 		"Ability4"					"faceless_void_time_lock"			// Ability 4
+		"Ability5"					"wave_resist_25"			// Ability 5
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"30"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"240"		// Damage range min.
+		"AttackDamageMax"			"240"		// Damage range max.
+		"AttackRate"				"2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -929,10 +941,10 @@
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"20000"		// Base health.
+		"StatusHealthRegen"			"20"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -962,11 +974,12 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_forest_trolls/n_creep_forest_troll_high_priest.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
@@ -977,16 +990,16 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"33"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"131"		// Damage range min.
+		"AttackDamageMax"			"131"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/base_attacks/ranged_badguy.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -1005,14 +1018,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"350"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"13782"		// Base health.
+		"StatusHealthRegen"			"11"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1042,31 +1055,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_golem_a/neutral_creep_golem_a.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"tidehunter_kraken_shell"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_50"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"36"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"144"		// Damage range min.
+		"AttackDamageMax"			"144"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -1083,14 +1097,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"350"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"17916"		// Base health.
+		"StatusHealthRegen"			"12"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1120,31 +1134,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_ghost_a/n_creep_ghost_a.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"abaddon_frostmourne"			// Ability 1
+		"Ability1"					"dawnbreaker_luminosity"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_50"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"39"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"158"		// Damage range min.
+		"AttackDamageMax"			"158"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/neutral_fx/ghost_base_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -1163,14 +1178,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"350"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"23290"		// Base health.
+		"StatusHealthRegen"			"13"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1200,31 +1215,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_worg_large/n_creep_worg_large.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"juggernaut_blade_dance"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_50"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"42"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"174"		// Damage range min.
+		"AttackDamageMax"			"174"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -1241,14 +1257,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"350"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"30277"		// Base health.
+		"StatusHealthRegen"			"14"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1278,31 +1294,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_harpy_b/n_creep_harpy_b.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"chaos_knight_chaos_strike"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_50"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"45"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"192"		// Damage range min.
+		"AttackDamageMax"			"192"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/base_attacks/ranged_badguy.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -1321,14 +1338,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"350"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"39360"		// Base health.
+		"StatusHealthRegen"			"15"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1358,31 +1375,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_centaur_lrg/n_creep_centaur_lrg.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"centaur_return"			// Ability 1
+		"Ability1"					"axe_counter_helix"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_50"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"48"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"211"		// Damage range min.
+		"AttackDamageMax"			"211"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -1399,14 +1417,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"350"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"51169"		// Base health.
+		"StatusHealthRegen"			"16"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1436,31 +1454,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_ancient_frog/n_creep_ancient_frog_mage.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"dawnbreaker_luminosity"			// Ability 1
 		"Ability2"					"skeleton_king_mortal_strike"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_50"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"51"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"232"		// Damage range min.
+		"AttackDamageMax"			"232"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/base_attacks/ranged_badguy.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -1479,14 +1498,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"350"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"66520"		// Base health.
+		"StatusHealthRegen"			"17"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1516,31 +1535,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_kobold/kobold_a/n_creep_kobold_a.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"monkey_king_jingu_mastery"			// Ability 1
+		"Ability1"					"nevermore_dark_lord"			// Ability 1
 		"Ability2"					"elder_titan_natural_order"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_50"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"54"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"255"		// Damage range min.
+		"AttackDamageMax"			"255"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -1557,14 +1577,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"350"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"86476"		// Base health.
+		"StatusHealthRegen"			"18"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1594,31 +1614,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_troll_dark_a/n_creep_troll_dark_a.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"sniper_headshot"			// Ability 1
 		"Ability2"					"spirit_breaker_greater_bash"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_50"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"57"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"281"		// Damage range min.
+		"AttackDamageMax"			"281"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/base_attacks/ranged_badguy.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -1637,14 +1658,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"350"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"112419"		// Base health.
+		"StatusHealthRegen"			"19"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1674,33 +1695,35 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/roshan/roshan.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"tidehunter_kraken_shell"			// Ability 1
 		"Ability2"					"shredder_reactive_armor"			// Ability 2
 		"Ability3"					"dragon_knight_dragon_blood"			// Ability 3
-		"Ability4"					"centaur_return"			// Ability 4
+		"Ability4"					"axe_counter_helix"			// Ability 4
 		"Ability5"					"spectre_dispersion"			// Ability 5
 		"Ability6"					"bristleback_bristleback"			// Ability 6
+		"Ability7"					"wave_resist_50"			// Ability 7
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"60"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"600"		// Damage range min.
+		"AttackDamageMax"			"600"		// Damage range max.
+		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -1717,14 +1740,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"350"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"300000"		// Base health.
+		"StatusHealthRegen"			"40"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1754,11 +1777,12 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_harpy_a/n_creep_harpy_a.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
@@ -1769,16 +1793,16 @@
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"63"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"340"		// Damage range min.
+		"AttackDamageMax"			"340"		// Damage range max.
+		"AttackRate"				"1"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/base_attacks/ranged_badguy.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -1797,14 +1821,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"400"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"189987"		// Base health.
+		"StatusHealthRegen"			"21"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1834,31 +1858,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_furbolg/n_creep_furbolg_disrupter.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"abyssal_underlord_atrophy_aura"			// Ability 1
 		"Ability2"					"sven_great_cleave"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_75"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"66"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"374"		// Damage range min.
+		"AttackDamageMax"			"374"		// Damage range max.
+		"AttackRate"				"1"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -1875,14 +1900,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"400"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"246983"		// Base health.
+		"StatusHealthRegen"			"22"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1912,31 +1937,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_ghost_b/n_creep_ghost_b.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"chaos_knight_chaos_strike"			// Ability 1
 		"Ability2"					"phantom_assassin_immaterial"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_75"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"69"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"412"		// Damage range min.
+		"AttackDamageMax"			"412"		// Damage range max.
+		"AttackRate"				"1"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/neutral_fx/black_dragon_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -1955,14 +1981,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"400"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"321078"		// Base health.
+		"StatusHealthRegen"			"23"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -1992,31 +2018,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_satyr_a/n_creep_satyr_a.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"legion_commander_moment_of_courage"			// Ability 1
 		"Ability2"					"elder_titan_natural_order"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_75"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"72"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"453"		// Damage range min.
+		"AttackDamageMax"			"453"		// Damage range max.
+		"AttackRate"				"1"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -2033,14 +2060,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"400"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"417401"		// Base health.
+		"StatusHealthRegen"			"24"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -2070,31 +2097,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_satyr_spawn_a/n_creep_satyr_spawn_a.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"venomancer_poison_sting"			// Ability 1
-		"Ability2"					"abaddon_frostmourne"			// Ability 2
+		"Ability2"					"broodmother_incapacitating_bite"			// Ability 2
 		"Ability3"					"alchemist_corrosive_weaponry"			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_75"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"75"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"499"		// Damage range min.
+		"AttackDamageMax"			"499"		// Damage range max.
+		"AttackRate"				"1"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/neutral_fx/black_dragon_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -2113,14 +2141,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"400"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"542621"		// Base health.
+		"StatusHealthRegen"			"25"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -2150,31 +2178,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_ogre_med/n_creep_ogre_med.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"alchemist_corrosive_weaponry"			// Ability 1
 		"Ability2"					"riki_backstab"			// Ability 2
 		"Ability3"					"medusa_mana_shield"			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_75"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"78"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"549"		// Damage range min.
+		"AttackDamageMax"			"549"		// Damage range max.
+		"AttackRate"				"1"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -2191,14 +2220,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"400"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"705407"		// Base health.
+		"StatusHealthRegen"			"26"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -2228,31 +2257,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_thunder_lizard/n_creep_thunder_lizard_small.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"pangolier_lucky_shot"			// Ability 1
 		"Ability2"					"enchantress_untouchable"			// Ability 2
 		"Ability3"					"life_stealer_feast"			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_75"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"81"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"604"		// Damage range min.
+		"AttackDamageMax"			"604"		// Damage range max.
+		"AttackRate"				"1"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/neutral_fx/thunderlizard_base_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -2271,14 +2301,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"400"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"917029"		// Base health.
+		"StatusHealthRegen"			"27"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -2308,31 +2338,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_vulture_a/n_creep_vulture_a.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"skeleton_king_spectral_blade"			// Ability 1
 		"Ability2"					"necrolyte_heartstopper_aura"			// Ability 2
 		"Ability3"					"nevermore_dark_lord"			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_75"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"84"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"664"		// Damage range min.
+		"AttackDamageMax"			"664"		// Damage range max.
+		"AttackRate"				"1"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -2349,14 +2380,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"400"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"1192138"		// Base health.
+		"StatusHealthRegen"			"28"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -2386,31 +2417,32 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_thunder_lizard/n_creep_thunder_lizard_big.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"life_stealer_feast"			// Ability 1
 		"Ability2"					"bloodseeker_thirst"			// Ability 2
 		"Ability3"					"broodmother_incapacitating_bite"			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability4"					"wave_resist_75"			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"87"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"731"		// Damage range min.
+		"AttackDamageMax"			"731"		// Damage range max.
+		"AttackRate"				"1"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/neutral_fx/thunderlizard_base_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -2429,14 +2461,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"400"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"1550789"		// Base health.
+		"StatusHealthRegen"			"29"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -2466,35 +2498,37 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/roshan/roshan.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Melee"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"ursa_fury_swipes"			// Ability 1
 		"Ability2"					"phantom_assassin_coup_de_grace"			// Ability 2
-		"Ability3"					"troll_warlord_berserkers_rage"			// Ability 3
+		"Ability3"					""			// Ability 3
 		"Ability4"					"naga_siren_rip_tide"			// Ability 4
 		"Ability5"					"life_stealer_feast"			// Ability 5
 		"Ability6"					"bloodseeker_thirst"			// Ability 6
 		"Ability7"					"troll_warlord_fervor"			// Ability 7
-		"Ability8"					"abaddon_frostmourne"			// Ability 8
+		"Ability8"					"chaos_knight_chaos_strike"			// Ability 8
+		"Ability9"					"wave_resist_75"			// Ability 9
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"90"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
+		"AttackDamageMin"			"1600"		// Damage range min.
+		"AttackDamageMax"			"1600"		// Damage range max.
+		"AttackRate"				"1"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.	
 		"AttackRange"				"100"		// Range within a target can be attacked.	     
 
 		// Bounds
@@ -2511,14 +2545,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"400"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"720160265"		// Base health.
+		"StatusHealthRegen"			"60"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -2548,37 +2582,39 @@
 		// General
 		//----------------------------------------------------------------
 		"Model"						"models/creeps/neutral_creeps/n_creep_black_dragon/n_creep_black_dragon.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
+		"BaseClass"					"npc_dota_creature"
 		"SoundSet"					"n_creep_Ranged"
 		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
 		"Level"						"1"
 		"ModelScale" 				".9"
+		"ConsideredHero"			"1"
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"abaddon_frostmourne"			// Ability 1
+		"Ability1"					"pangolier_lucky_shot"			// Ability 1
 		"Ability2"					"antimage_mana_break"			// Ability 2
 		"Ability3"					"troll_warlord_fervor"			// Ability 3
 		"Ability4"					"juggernaut_blade_dance"			// Ability 4
 		"Ability5"					"dawnbreaker_luminosity"			// Ability 5
-		"Ability6"					"monkey_king_jingu_mastery"			// Ability 6
+		"Ability6"					"sniper_headshot"			// Ability 6
 		"Ability7"					"skeleton_king_mortal_strike"			// Ability 7
 		"Ability8"					"chaos_knight_chaos_strike"			// Ability 8
 		"Ability9"					"phantom_assassin_coup_de_grace"			// Ability 9
 		"Ability10"					"ursa_fury_swipes"			// Ability 10
+		"Ability11"					"wave_resist_75"			// Ability 11
 
 		// Armor
 		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
+		"ArmorPhysical"				"150"			// Physical protection.
 
 		// Attack
 		//----------------------------------------------------------------
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
+		"AttackDamageMin"			"3000"		// Damage range min.
+		"AttackDamageMax"			"3000"		// Damage range max.
 		"AttackRate"				"1.6"		// Speed of attack.
 		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"9999"		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"1000"		// Range within a target can be acquired.
 		"AttackRange"				"800"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/neutral_fx/black_dragon_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1500"		// Speed of projectile.		     
@@ -2597,14 +2633,14 @@
 		// Movement
 		//----------------------------------------------------------------
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
+		"MovementSpeed"				"500"		// Speed.			
 
 		// Status
 		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
+		"StatusHealth"				"15000000"		// Base health.
+		"StatusHealthRegen"			"100"		// Health regeneration rate.
+		"StatusMana"				"5000"			// Base mana.
+		"StatusManaRegen"			"10"		// Mana regeneration rate.		 
 		
 		// Vision
 		//----------------------------------------------------------------
@@ -2625,154 +2661,4 @@
 
 		}
 	}
-
-	//=================================================================================	
-	// Creature: Roshan Wave 35
-	//=================================================================================
-	"npc_dota_neutral_roshan_melee_wave35"	
-	{
-		// General
-		//----------------------------------------------------------------
-		"Model"						"models/creeps/roshan/roshan.vmdl"	// Model.
-		"BaseClass"					"npc_dota_hero"
-		"SoundSet"					"n_creep_Melee"
-		"GameSoundsFile"			"soundevents/game_sounds_creeps.vsndevts"
-		"Level"						"1"
-		"ModelScale" 				".9"
-
-		// Abilities
-		//----------------------------------------------------------------
-		"Ability1"					"ursa_fury_swipes"			// Ability 1
-		"Ability2"					"phantom_assassin_coup_de_grace"			// Ability 2
-		"Ability3"					"troll_warlord_berserkers_rage"			// Ability 3
-		"Ability4"					"monkey_king_jingu_mastery"			// Ability 4
-		"Ability5"					"life_stealer_feast"			// Ability 5
-		"Ability6"					"sven_great_cleave"			// Ability 6
-		"Ability7"					"troll_warlord_fervor"			// Ability 7
-		"Ability8"					"abaddon_frostmourne"			// Ability 8
-		"Ability9"					"antimage_mana_break"			// Ability 9
-		"Ability10"					"slardar_bash"			// Ability 10
-		"Ability11"					"pangolier_lucky_shot"			// Ability 11
-		"Ability12"					"centaur_return"			// Ability 12
-		"Ability13"					"shredder_reactive_armor"			// Ability 13
-		"Ability14"					"dragon_knight_dragon_blood"			// Ability 14
-		"Ability15"					"spectre_dispersion"			// Ability 15
-		"Ability16"					"abyssal_underlord_atrophy_aura"			// Ability 16
-		"Ability17"					"phantom_assassin_immaterial"			// Ability 17
-		"Ability18"					"medusa_mana_shield"			// Ability 18
-		"Ability19"					"bristleback_bristleback"			// Ability 19
-		"Ability20"					"enchantress_untouchable"			// Ability 20
-
-		// Armor
-		//----------------------------------------------------------------
-		"ArmorPhysical"				"1"			// Physical protection.
-
-		// Attack
-		//----------------------------------------------------------------
-		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"36"		// Damage range max.
-		"AttackRate"				"1.6"		// Speed of attack.
-		"AttackAnimationPoint"		"0.4"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"800"		// Range within a target can be acquired.	
-		"AttackRange"				"100"		// Range within a target can be attacked.	     
-
-		// Bounds
-		//----------------------------------------------------------------
-		"RingRadius"				"40"
-		"HealthBarOffset"			"170"
-
-		// Bounty
-		//----------------------------------------------------------------
-		"BountyXP"					"0"		// Experience earn.
-		"BountyGoldMin"				"0"		// Gold earned min.
-		"BountyGoldMax"				"0"		// Gold earned max.
-
-		// Movement
-		//----------------------------------------------------------------
-		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"300"		// Speed.			
-
-		// Status
-		//----------------------------------------------------------------
-		"StatusHealth"				"75"		// Base health.
-		"StatusHealthRegen"			"0.5"		// Health regeneration rate.
-		"StatusMana"				"500"			// Base mana.
-		"StatusManaRegen"			"0.0"		// Mana regeneration rate.		 
-		
-		// Vision
-		//----------------------------------------------------------------
-		"VisionDaytimeRange"		"9999"		// Range of vision during day light.
-		"VisionNighttimeRange"		"9999"		// Range of vision at night time.
-
-		// Team
-		//----------------------------------------------------------------
-		"TeamName"					"DOTA_TEAM_BADGUYS"						// Team name.
-		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_PIERCE"
-		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
-		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
-
-		// Creature Data
-		//----------------------------------------------------------------
-		"Creature"
-		{
-
-		}
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

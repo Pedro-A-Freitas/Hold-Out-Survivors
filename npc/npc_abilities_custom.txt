@@ -4,46 +4,32 @@
 	"Version"		"1"
 
 	//=================================================================================================================
-	// Templar Assassin: Refraction Holdout
+	// Wave Resistance 25%
 	//=================================================================================================================
-	"templar_assassin_refraction_holdout"
+	"wave_resist_25"
 	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"BaseClass"         "ability_lua"
+		"ScriptFile"        "abilities/creeps/wave_resist_25.lua"
+		"AbilityBehavior"   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
 
-		// Casting
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastPoint"				"0.0 0.0 0.0 0.0"
+	//=================================================================================================================
+	// Wave Resistance 50%
+	//=================================================================================================================
+	"wave_resist_50"
+	{
+		"BaseClass"         "ability_lua"
+		"ScriptFile"        "abilities/creeps/wave_resist_50.lua"
+		"AbilityBehavior"   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
 
-		// Time		
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"17.0 17.0 17.0 17.0"
-
-		// Cost
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"100"
-		
-		// Special
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"damage_absorb"				"200 300 400 500"
-			}
-			"02"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"bonus_damage"				"20 40 60 80"
-			}
-			"04"
-			{
-				"var_type"					"FIELD_FLOAT"
-				"duration"					"17.0 17.0 17.0 17.0"
-			}
-		}
+	//=================================================================================================================
+	// Wave Resistance 75%
+	//=================================================================================================================
+	"wave_resist_75"
+	{
+		"BaseClass"         "ability_lua"
+		"ScriptFile"        "abilities/creeps/wave_resist_75.lua"
+		"AbilityBehavior"   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
 	}
 }
