@@ -57,6 +57,24 @@ function CAddonTemplateGameMode:OnThink()
     return 0.5
 end
 
+function ApplyVisionToAllHeroes()
+
+    for playerID = 0, DOTA_MAX_TEAM_PLAYERS-1 do
+
+        if PlayerResource:IsValidPlayerID(playerID) then
+
+            local hero = PlayerResource:GetSelectedHeroEntity(playerID)
+
+            if hero and not hero:IsNull() then
+
+                hero:SetDayTimeVisionRange(1200)
+                hero:SetNightTimeVisionRange(1200)
+
+            end
+        end
+    end
+end
+
 function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)
 
     amount = amount or 1
