@@ -20,10 +20,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					""			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -99,10 +99,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					""			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -179,10 +179,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					""			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -261,10 +261,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					""			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -343,10 +343,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					""			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -422,10 +422,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					""			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -503,10 +503,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					""			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -584,10 +584,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					""			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -665,10 +665,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					""			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -744,10 +744,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					""			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -825,10 +825,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"antimage_mana_break"			// Ability 1
+		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_25"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -909,7 +909,7 @@
 		"Ability1"					"roshan_bash"			// Ability 1
 		"Ability2"					"spirit_breaker_greater_bash"			// Ability 2
 		"Ability3"					"slardar_bash"			// Ability 3
-		"Ability4"					"faceless_void_time_lock"			// Ability 4
+		"Ability6"					"faceless_void_time_lock"			// Ability 4
 		"Ability5"					"wave_resist_25"			// Ability 5
 
 		// Armor
@@ -987,9 +987,9 @@
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"troll_warlord_fervor"			// Ability 1
-		"Ability2"					""			// Ability 2
+		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1068,9 +1068,9 @@
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"tidehunter_kraken_shell"			// Ability 1
-		"Ability2"					""			// Ability 2
+		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_50"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1147,9 +1147,9 @@
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"dawnbreaker_luminosity"			// Ability 1
-		"Ability2"					""			// Ability 2
+		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_50"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1228,9 +1228,9 @@
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"juggernaut_blade_dance"			// Ability 1
-		"Ability2"					""			// Ability 2
+		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_50"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1307,9 +1307,9 @@
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"chaos_knight_chaos_strike"			// Ability 1
-		"Ability2"					""			// Ability 2
+		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_50"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1388,9 +1388,9 @@
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"axe_counter_helix"			// Ability 1
-		"Ability2"					""			// Ability 2
+		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_50"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1467,9 +1467,9 @@
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"dawnbreaker_luminosity"			// Ability 1
-		"Ability2"					"skeleton_king_mortal_strike"			// Ability 2
+		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_50"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1547,10 +1547,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"nevermore_dark_lord"			// Ability 1
+		"Ability1"					"wave_resist_50"			// Ability 1
 		"Ability2"					"elder_titan_natural_order"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_50"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1626,10 +1626,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"sniper_headshot"			// Ability 1
+		"Ability1"					"wave_resist_50"			// Ability 1
 		"Ability2"					"spirit_breaker_greater_bash"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_50"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1710,7 +1710,7 @@
 		"Ability1"					"tidehunter_kraken_shell"			// Ability 1
 		"Ability2"					"shredder_reactive_armor"			// Ability 2
 		"Ability3"					"dragon_knight_dragon_blood"			// Ability 3
-		"Ability4"					"axe_counter_helix"			// Ability 4
+		"Ability8"					"axe_counter_helix"			// Ability 4
 		"Ability5"					"spectre_dispersion"			// Ability 5
 		"Ability6"					"bristleback_bristleback"			// Ability 6
 		"Ability7"					"wave_resist_50"			// Ability 7
@@ -1791,8 +1791,8 @@
 		//----------------------------------------------------------------
 		"Ability1"					"skeleton_king_spectral_blade"			// Ability 1
 		"Ability2"					"skeleton_king_mortal_strike"			// Ability 2
-		"Ability3"					""			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability3"					"wave_resist_75"			// Ability 3
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1872,8 +1872,8 @@
 		//----------------------------------------------------------------
 		"Ability1"					"abyssal_underlord_atrophy_aura"			// Ability 1
 		"Ability2"					"sven_great_cleave"			// Ability 2
-		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_75"			// Ability 4
+		"Ability3"					"wave_resist_75"			// Ability 3
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1951,8 +1951,8 @@
 		//----------------------------------------------------------------
 		"Ability1"					"chaos_knight_chaos_strike"			// Ability 1
 		"Ability2"					"phantom_assassin_immaterial"			// Ability 2
-		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_75"			// Ability 4
+		"Ability3"					"wave_resist_75"			// Ability 3
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2030,10 +2030,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"legion_commander_moment_of_courage"			// Ability 1
+		"Ability1"					"troll_warlord_fervor"			// Ability 1
 		"Ability2"					"elder_titan_natural_order"			// Ability 2
-		"Ability3"					""			// Ability 3
-		"Ability4"					"wave_resist_75"			// Ability 4
+		"Ability3"					"wave_resist_75"			// Ability 3
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2109,10 +2109,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"venomancer_poison_sting"			// Ability 1
+		"Ability1"					"wave_resist_75"			// Ability 1
 		"Ability2"					"broodmother_incapacitating_bite"			// Ability 2
 		"Ability3"					"alchemist_corrosive_weaponry"			// Ability 3
-		"Ability4"					"wave_resist_75"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2191,9 +2191,9 @@
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"alchemist_corrosive_weaponry"			// Ability 1
-		"Ability2"					"riki_backstab"			// Ability 2
+		"Ability2"					"wave_resist_75"			// Ability 2
 		"Ability3"					"medusa_mana_shield"			// Ability 3
-		"Ability4"					"wave_resist_75"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2269,10 +2269,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"pangolier_lucky_shot"			// Ability 1
+		"Ability1"					"wave_resist_75"			// Ability 1
 		"Ability2"					"enchantress_untouchable"			// Ability 2
 		"Ability3"					"life_stealer_feast"			// Ability 3
-		"Ability4"					"wave_resist_75"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2352,8 +2352,8 @@
 		//----------------------------------------------------------------
 		"Ability1"					"skeleton_king_spectral_blade"			// Ability 1
 		"Ability2"					"necrolyte_heartstopper_aura"			// Ability 2
-		"Ability3"					"nevermore_dark_lord"			// Ability 3
-		"Ability4"					"wave_resist_75"			// Ability 4
+		"Ability3"					"wave_resist_75"			// Ability 3
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2429,10 +2429,10 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"life_stealer_feast"			// Ability 1
+		"Ability1"					"wave_resist_75"			// Ability 1
 		"Ability2"					"bloodseeker_thirst"			// Ability 2
 		"Ability3"					"broodmother_incapacitating_bite"			// Ability 3
-		"Ability4"					"wave_resist_75"			// Ability 4
+		"Ability6"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2512,8 +2512,8 @@
 		//----------------------------------------------------------------
 		"Ability1"					"ursa_fury_swipes"			// Ability 1
 		"Ability2"					"phantom_assassin_coup_de_grace"			// Ability 2
-		"Ability3"					""			// Ability 3
-		"Ability4"					"naga_siren_rip_tide"			// Ability 4
+		"Ability3"					"roshan_bash"			// Ability 3
+		"Ability10"					"naga_siren_rip_tide"			// Ability 4
 		"Ability5"					"life_stealer_feast"			// Ability 5
 		"Ability6"					"bloodseeker_thirst"			// Ability 6
 		"Ability7"					"troll_warlord_fervor"			// Ability 7
@@ -2597,7 +2597,7 @@
 		"Ability1"					"pangolier_lucky_shot"			// Ability 1
 		"Ability2"					"antimage_mana_break"			// Ability 2
 		"Ability3"					"troll_warlord_fervor"			// Ability 3
-		"Ability4"					"juggernaut_blade_dance"			// Ability 4
+		"Ability12"					"juggernaut_blade_dance"			// Ability 4
 		"Ability5"					"dawnbreaker_luminosity"			// Ability 5
 		"Ability6"					"sniper_headshot"			// Ability 6
 		"Ability7"					"skeleton_king_mortal_strike"			// Ability 7

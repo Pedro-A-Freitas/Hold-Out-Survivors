@@ -747,7 +747,7 @@ function SpawnWave31()
     }
 
     local index = 1
-    local spawnDelay = 5
+    local spawnDelay = 10
 
     GameRules:GetGameModeEntity():SetContextThink("Wave31Think", function()
 
@@ -806,7 +806,7 @@ function SpawnWave32()
     }
 
     local index = 1
-    local spawnDelay = 5
+    local spawnDelay = 15
 
     GameRules:GetGameModeEntity():SetContextThink("Wave32Think", function()
 
@@ -865,7 +865,7 @@ function SpawnWave33()
     }
 
     local index = 1
-    local spawnDelay = 5
+    local spawnDelay = 20
 
     GameRules:GetGameModeEntity():SetContextThink("Wave33Think", function()
 
