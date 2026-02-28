@@ -16,21 +16,32 @@ function CAddonTemplateGameMode:InitGameMode()
 
     GameRules:SetCustomGameTeamMaxPlayers(DOTA_TEAM_GOODGUYS, 5)
     GameRules:SetCustomGameTeamMaxPlayers(DOTA_TEAM_BADGUYS, 0)
-    GameRules:SetTimeOfDay(0.0)
+    GameRules:SetTimeOfDay(0.25)
     GameRules:SetUseUniversalShopMode(true)
 
     GameRules:GetGameModeEntity():SetTopBarTeamValuesOverride(true)
     GameRules:GetGameModeEntity():SetTopBarTeamValuesVisible(false)
 
     GameRules:SetHeroSelectionTime(25)
-    GameRules:SetPreGameTime(5)
+    GameRules:SetPreGameTime(10)
     GameRules:SetStrategyTime(10)
     GameRules:SetShowcaseTime(0)
 
     GameRules:GetGameModeEntity():SetThink("OnThink", self, "GlobalThink", 1)
+
+    players = 0
+
 end
 
 function CAddonTemplateGameMode:OnThink()
+
+    if GameRules:State_Get() == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
+
+        if players == 0 then
+            players = PlayerResource:GetPlayerCount()
+        end
+
+    end
 
     if GameRules:State_Get() ~= DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
         return 1
@@ -38,7 +49,6 @@ function CAddonTemplateGameMode:OnThink()
 
     local currentTime = GameRules:GetGameTime()
 
-    -- Wave logic
     if not self.waveStarted then
         self.waveStarted = true
         self:StartWave()
@@ -564,7 +574,7 @@ end
 -- WAVES --
 
 function SpawnWave1()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1", players)
 end
 
 function SpawnWave2()
