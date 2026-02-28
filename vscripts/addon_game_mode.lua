@@ -16,14 +16,21 @@ function CAddonTemplateGameMode:InitGameMode()
 
     GameRules:SetCustomGameTeamMaxPlayers(DOTA_TEAM_GOODGUYS, 5)
     GameRules:SetCustomGameTeamMaxPlayers(DOTA_TEAM_BADGUYS, 0)
+
+    for team = 0, 13 do
+        if team ~= DOTA_TEAM_GOODGUYS then
+            GameRules:SetCustomGameTeamMaxPlayers(team, 0)
+        end
+    end
+
     GameRules:SetTimeOfDay(0.25)
     GameRules:SetUseUniversalShopMode(true)
 
     GameRules:GetGameModeEntity():SetTopBarTeamValuesOverride(true)
     GameRules:GetGameModeEntity():SetTopBarTeamValuesVisible(false)
 
-    GameRules:SetHeroSelectionTime(25)
-    GameRules:SetPreGameTime(10)
+    GameRules:SetHeroSelectionTime(30)
+    GameRules:SetPreGameTime(15)
     GameRules:SetStrategyTime(10)
     GameRules:SetShowcaseTime(0)
 
@@ -364,7 +371,11 @@ function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)
                             RefreshAllPlayers()
                             EmitGlobalSound("DOTA_Item.Refresher.Activate")
                             waveNumber = waveNumber + 1
-                            nextWaveTime = GameRules:GetGameTime() + 10
+                            if waveNumber > 34 then
+                                GameRules:SetGameWinner(DOTA_TEAM_GOODGUYS)
+                                return nil -- Para o script aqui
+                            end
+                            nextWaveTime = GameRules:GetGameTime() + 15
                         end
                         return nil
                     end
