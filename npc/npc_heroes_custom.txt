@@ -8,7 +8,7 @@
 	//==================================================
 	"npc_dota_hero_legion_commander"
     {
-        "Ability6"  "phantom_assassin_coup_de_grace"
+        "Ability6"  "duel_reward"
     }
 
 	//==================================================
@@ -16,8 +16,8 @@
     //==================================================
     "npc_dota_hero_skywrath_mage"
     {
-        "Ability2"  "zuus_arc_lightning"             
-        "Ability6"  "lion_finger_of_death"               
+        "Ability2"  "skywrath_concussive_shot_custom"             
+        "Ability6"  "skywrath_mystic_flare_custom"               
     }
 
 	//==================================================
@@ -25,7 +25,7 @@
     //==================================================
     "npc_dota_hero_zuus"
     {
-        "Ability6"  "lina_laguna_blade"               
+        "Ability6"  "zeus_thundergods_wrath_custom"               
     }
 
 	//==================================================
@@ -33,7 +33,7 @@
     //==================================================
     "npc_dota_hero_rubick"
     {
-        "Ability6"  "necrolyte_reapers_scythe"               
+        "Ability6"  "rubick_dagon_custom"               
     }
 
 	//==================================================
@@ -41,7 +41,8 @@
     //==================================================
     "npc_dota_hero_terrorblade"
     {
-        "Ability1"  "naga_siren_mirror_image"               
+        "Ability1"  "terrorblade_reflection_custom"
+        "Ability6"  "terrorblade_mastery_custom"               
     }
 
 	//==================================================
@@ -49,7 +50,7 @@
     //==================================================
     "npc_dota_hero_spectre"
     {
-        "Ability6"  "tiny_grow"               
+        "Ability6"  "spectre_haunt_mastery_custom"               
     }
 
 	//==================================================
@@ -57,7 +58,7 @@
     //==================================================
     "npc_dota_hero_vengefulspirit"
     {
-        "Ability6"  "alchemist_chemical_rage"               
+        "Ability6"  "vengeful_spirit_mastery_custom"               
     }
 
 	//==================================================
@@ -65,7 +66,8 @@
     //==================================================
     "npc_dota_hero_silencer"
     {
-        "Ability6"  "obsidian_destroyer_sanity_eclipse"               
+        "Ability2"  "silencer_glaives_custom"
+        "Ability6"  "silencer_mastery_custom"               
     }
 
 	//==================================================
@@ -73,6 +75,22 @@
     //==================================================
     "npc_dota_hero_pugna"
     {
-        "Ability2"  "lion_impale"               
+        "Ability3"  "pugna_ward_custom"               
+    }
+
+    //==================================================
+    // HERO: npc_dota_hero_monkey_king
+    //==================================================
+    "npc_dota_hero_monkey_king"
+    {
+        "Ability4" "jingu_master" 
+    }
+
+    //==================================================
+    // HERO: npc_dota_hero_axe
+    //==================================================
+    "npc_dota_hero_axe"
+    {
+        "Ability6" "axe_culling_blade_custom" 
     }
 }

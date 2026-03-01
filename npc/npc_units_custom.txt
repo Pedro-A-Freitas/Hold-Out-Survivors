@@ -2695,4 +2695,58 @@
 
 		}
 	}
+
+	//=======================================================================================
+	//=======================================================================================	
+	//
+	//										OTHER UNITS										
+	//
+	//=======================================================================================
+	//=======================================================================================
+
+	//=================================================================================	
+	// Pugna:  npc_dota_pugna_nether_ward_1
+	//=================================================================================
+	"npc_dota_pugna_nether_ward_1"
+    {
+        "BaseClass"             "npc_dota_base"
+        "Model"                 "models/heroes/pugna/pugna_ward.vmdl"
+        "SoundFullVisible"      "Hero_Pugna.NetherWard"
+        "Level"                 "1"
+        "StatusHealth"          "200"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
+        "MoveCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"
+        "BoundsHullName"        "DOTA_HULL_SIZE_SMALL"
+        "HealthBarOffset"       "140"
+    }
+
+    "npc_dota_pugna_nether_ward_2"
+    {
+        "BaseClass"             "npc_dota_base" // Mudei para dota_base para evitar erro de herança
+        "Model"                 "models/heroes/pugna/pugna_ward.vmdl"
+        "Level"                 "2"
+        "StatusHealth"          "200"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
+        "MoveCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"
+    }
+
+    "npc_dota_pugna_nether_ward_3"
+    {
+        "BaseClass"             "npc_dota_base"
+        "Model"                 "models/heroes/pugna/pugna_ward.vmdl"
+        "Level"                 "3"
+        "StatusHealth"          "200"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
+        "MoveCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"
+    }
+
+    "npc_dota_pugna_nether_ward_4"
+    {
+        "BaseClass"             "npc_dota_base"
+        "Model"                 "models/heroes/pugna/pugna_ward.vmdl"
+        "Level"                 "4"
+        "StatusHealth"          "200"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
+        "MoveCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"
+    }
 }
