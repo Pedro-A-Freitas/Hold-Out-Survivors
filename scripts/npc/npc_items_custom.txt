@@ -1,0 +1,1118 @@
+"DOTAItems"
+{
+    "item_mkb_custom_2"
+    {
+        "ID"                            "5001"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_mkb_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "monkey_king_bar"
+        "ItemQuality"                   "artifact"
+    }
+
+    "item_recipe_mkb_custom_2"
+    {
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ID"                            "5002"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4700"
+        "ItemResult"                    "item_mkb_custom_2"
+        "AbilityTextureName"            "recipe"
+        
+        "ItemRequirements"
+        {
+            "01"                        "item_monkey_king_bar"
+        }
+    }
+
+    "item_bloodthorn_custom_2"
+    {
+        "ID"                            "5003"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_bloodthorn_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityTextureName"            "bloodthorn"
+        "ItemQuality"                   "artifact"
+        "AbilityCastRange"              "900"
+        "AbilityCooldown"               "15.0"
+        "AbilityManaCost"               "100"
+    }
+
+    "item_recipe_bloodthorn_custom_2"
+    {
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ID"                            "5004"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "6625"
+        "ItemResult"                    "item_bloodthorn_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_bloodthorn"
+        }
+    }
+
+    "item_butterfly_custom_2"
+    {
+        "ID"                            "5005"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_butterfly_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "butterfly"
+        "ItemQuality"                   "artifact"
+    }
+
+    "item_recipe_butterfly_custom_2"
+    {
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ID"                            "5006"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5450"
+        "ItemResult"                    "item_butterfly_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_butterfly"
+        }
+    }
+
+    "item_radiance_custom_2"
+    {
+        "ID"                            "5007"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_radiance_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "radiance"
+        "ItemQuality"                   "artifact"
+    }
+
+    "item_recipe_radiance_custom_2"
+    {
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ID"                            "5008"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4700" 
+        "ItemResult"                    "item_radiance_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_radiance"
+        }
+    }
+
+    "item_disperser_custom_2"
+    {
+        "ID"                            "5009"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_disperser_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE" 
+        "AbilityTextureName"            "disperser"
+        "ItemQuality"                   "artifact"
+        "AbilityCastRange"              "600"
+        "AbilityCooldown"               "20.0"
+        "AbilityManaCost"               "100"
+    }
+
+    "item_recipe_disperser_custom_2"
+    {
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ID"                            "5010"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "6100"
+        "ItemResult"                    "item_disperser_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_disperser"
+        }
+    }
+
+    "item_daedalus_custom_2"
+    {
+        "ID"                            "5011"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_daedalus_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE" // ISSO TORNA O ITEM PASSIVO
+        "AbilityTextureName"            "item_greater_crit" 
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "10200"
+    }
+
+    "item_recipe_daedalus_custom_2"
+    {
+        "ID"                            "5012"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5100"
+        "ItemResult"                    "item_daedalus_custom_2"
+        "AbilityTextureName"            "recipe" // O ícone de papel da receita
+        "ItemRequirements"
+        {
+            "01"                        "item_greater_crit"
+        }
+    }
+
+    "item_rapier_custom_2"
+    {
+        "ID"                            "5013"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_rapier_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
+        "AbilityTextureName"            "rapier"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "11200"
+    }
+
+    "item_recipe_rapier_custom_2"
+    {
+        "ID"                            "5014"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5600"
+        "ItemResult"                    "item_rapier_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_rapier"
+        }
+    }
+
+    "item_silver_edge_custom_2"
+    {
+        "ID"                            "5015"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_silver_edge_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "silver_edge"
+        "ItemQuality"                   "artifact"
+        "AbilityCooldown"               "18.0"
+        "AbilityManaCost"               "75"
+        "ItemCost"                      "11400"
+    }
+
+    "item_recipe_silver_edge_custom_2"
+    {
+        "ID"                            "5016"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5700"
+        "ItemResult"                    "item_silver_edge_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_silver_edge"
+        }
+    }
+
+    "item_abyssal_blade_custom_2"
+    {
+        "ID"                            "5017"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_abyssal_blade_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitTargetFlags"        "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+        "AbilityTextureName"            "abyssal_blade"
+        "ItemQuality"                   "artifact"
+        "AbilityCooldown"               "35.0"
+        "AbilityManaCost"               "75"
+        "AbilityCastRange"              "150"
+        "ItemCost"                      "12500"
+    }
+
+    "item_recipe_abyssal_blade_custom_2"
+    {
+        "ID"                            "5018"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "6250"
+        "ItemResult"                    "item_abyssal_blade_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_abyssal_blade"
+        }
+    }
+
+    "item_parasma_custom_2"
+    {
+        "ID"                            "5019"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_parasma_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "devastator"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "11950"
+    }
+
+    "item_recipe_parasma_custom_2"
+    {
+        "ID"                            "5020"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5975"
+        "ItemResult"                    "item_parasma_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_devastator"
+        }
+    }
+
+    "item_revenants_brooch_custom_2"
+    {
+        "ID"                            "5021"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_revenants_brooch_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "revenants_brooch"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "6600"
+    }
+
+    "item_recipe_revenants_brooch_custom_2"
+    {
+        "ID"                            "5022"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "3300"
+        "ItemResult"                    "item_revenants_brooch_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_revenants_brooch"
+        }
+    }
+
+    "item_desolator_custom_2"
+    {
+        "ID"                            "5023"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_desolator_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_desolator"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "7000"
+    }
+
+    "item_recipe_desolator_custom_2"
+    {
+        "ID"                            "5024"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "3500"
+        "ItemResult"                    "item_desolator_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_desolator"
+        }
+    }
+
+    "item_bfury_custom_2"
+    {
+        "ID"                            "5025"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_bfury_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_bfury"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "7800"
+    }
+
+    "item_recipe_bfury_custom_2"
+    {
+        "ID"                            "5026"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "3900"
+        "ItemResult"                    "item_bfury_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_bfury"
+        }
+    }
+
+    "item_satanic_custom_2"
+    {
+        "ID"                            "5027"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_satanic_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"            "item_satanic"
+        "ItemQuality"                   "artifact"
+        "AbilityCooldown"               "30.0"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "10100"
+    }
+
+    "item_recipe_satanic_custom_2"
+    {
+        "ID"                            "5028"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5050"
+        "ItemResult"                    "item_satanic_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_satanic"
+        }
+    }
+
+    "item_manta_custom_2"
+    {
+        "ID"                            "5029"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_manta_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "item_manta"
+        "ItemQuality"                   "artifact"
+        "AbilityCooldown"               "35.0"
+        "AbilityManaCost"               "250" // 125 * 2
+        "ItemCost"                      "9300"
+    }
+
+    "item_recipe_manta_custom_2"
+    {
+        "ID"                            "5030"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4650"
+        "ItemResult"                    "item_manta_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_manta"
+        }
+    }
+
+    "item_yasha_and_kaya_custom_2"
+    {
+        "ID"                            "5031"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_yasha_and_kaya_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_yasha_and_kaya"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "8400"
+    }
+
+    "item_recipe_yasha_and_kaya_custom_2"
+    {
+        "ID"                            "5032"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4200"
+        "ItemResult"                    "item_yasha_and_kaya_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_yasha_and_kaya"
+        }
+    }
+
+    "item_sange_and_yasha_custom_2"
+    {
+        "ID"                            "5033"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_sange_and_yasha_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_sange_and_yasha"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "8400"
+    }
+
+    "item_recipe_sange_and_yasha_custom_2"
+    {
+        "ID"                            "5034"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4200"
+        "ItemResult"                    "item_sange_and_yasha_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_sange_and_yasha"
+        }
+    }
+
+    "item_kaya_and_sange_custom_2"
+    {
+        "ID"                            "5035"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_kaya_and_sange_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_kaya_and_sange"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "8400"
+    }
+
+    "item_recipe_kaya_and_sange_custom_2"
+    {
+        "ID"                            "5036"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4200"
+        "ItemResult"                    "item_kaya_and_sange_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_kaya_and_sange"
+        }
+    }
+
+    "item_khanda_custom_2"
+    {
+        "ID"                            "5037"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_khanda_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_angels_demise"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "11200"
+    }
+
+    "item_recipe_khanda_custom_2"
+    {
+        "ID"                            "5038"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5600"
+        "ItemResult"                    "item_khanda_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_angels_demise"
+        }
+    }
+
+    "item_mjollnir_custom_2"
+    {
+        "ID"                            "5039"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_mjollnir_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityTextureName"            "item_mjollnir"
+        "ItemQuality"                   "artifact"
+        "AbilityCastRange"              "800"
+        "AbilityCooldown"               "35.0"
+        "AbilityManaCost"               "100"
+        "ItemCost"                      "11000"
+    }
+
+    "item_recipe_mjollnir_custom_2"
+    {
+        "ID"                            "5040"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5500"
+        "ItemResult"                    "item_mjollnir_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_mjollnir"
+        }
+    }
+
+    "item_hurricane_pike_custom_2"
+    {
+        "ID"                            "5041"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_hurricane_pike_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityTextureName"            "item_hurricane_pike"
+        "ItemQuality"                   "artifact"
+        "AbilityCastRange"              "650"
+        "AbilityCooldown"               "19.0"
+        "AbilityManaCost"               "300"
+        "ItemCost"                      "8900"
+    }
+
+    "item_recipe_hurricane_pike_custom_2"
+    {
+        "ID"                            "5042"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4450"
+        "ItemResult"                    "item_hurricane_pike_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_hurricane_pike"
+        }
+    }
+
+    "item_assault_custom_2"
+    {
+        "ID"                            "5043"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_assault_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_assault"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "10250"
+    }
+
+    "item_recipe_assault_custom_2"
+    {
+        "ID"                            "5044"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5125"
+        "ItemResult"                    "item_assault_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_assault"
+        }
+    }
+
+    "item_skadi_custom_2"
+    {
+        "ID"                            "5045"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_skadi_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_skadi"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "11800"
+    }
+
+    "item_recipe_skadi_custom_2"
+    {
+        "ID"                            "5046"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5900"
+        "ItemResult"                    "item_skadi_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_skadi"
+        }
+    }
+
+    "item_shivas_custom_2"
+    {
+        "ID"                            "5047"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_shivas_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "item_shivas_guard"
+        "ItemQuality"                   "artifact"
+        "AbilityCooldown"               "27.0"
+        "AbilityManaCost"               "150"
+        "ItemCost"                      "10350"
+    }
+
+    "item_recipe_shivas_custom_2"
+    {
+        "ID"                            "5048"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5175"
+        "ItemResult"                    "item_shivas_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_shivas_guard"
+        }
+    }
+
+    "item_heart_custom_2"
+    {
+        "ID"                            "5049"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_heart_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_heart"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "10200"
+    }
+
+    "item_recipe_heart_custom_2"
+    {
+        "ID"                            "5050"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5100"
+        "ItemResult"                    "item_heart_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_heart"
+        }
+    }
+
+    "item_bloodstone_custom_2"
+    {
+        "ID"                            "5051"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_bloodstone_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "item_bloodstone"
+        "ItemQuality"                   "artifact"
+        "AbilityCooldown"               "30.0"
+        "AbilityManaCost"               "0"
+        "ItemCost"                      "8700"
+    }
+
+    "item_recipe_bloodstone_custom_2"
+    {
+        "ID"                            "5052"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4350"
+        "ItemResult"                    "item_bloodstone_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_bloodstone"
+        }
+    }
+
+    "item_octarine_custom_2"
+    {
+        "ID"                            "5053"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_octarine_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_octarine_core"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "9800"
+    }
+
+    "item_recipe_octarine_custom_2"
+    {
+        "ID"                            "5054"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4900"
+        "ItemResult"                    "item_octarine_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_octarine_core"
+        }
+    }
+
+    "item_refresher_custom_2"
+    {
+        "ID"                            "5055"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_refresher_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"            "item_refresher"
+        "ItemQuality"                   "artifact"
+        "AbilityCooldown"               "180.0"
+        "AbilityManaCost"               "800"
+        "ItemCost"                      "10000"
+    }
+
+    "item_recipe_refresher_custom_2"
+    {
+        "ID"                            "5056"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5000"
+        "ItemResult"                    "item_refresher_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_refresher"
+        }
+    }
+
+    "item_ethereal_blade_custom_2"
+    {
+        "ID"                            "5057"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_ethereal_blade_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityTextureName"            "item_ethereal_blade"
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "10400"
+        "ItemPurchasable"               "1"
+        "ItemSellable"                  "1"
+        "AbilityCastRange"              "800"
+        "AbilityCastPoint"              "0.0"
+        "AbilityCooldown"               "22.0"
+        "AbilityManaCost"               "200"
+    }
+
+    "item_recipe_ethereal_blade_custom_2"
+    {
+        "ID"                            "5058"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "5200"
+        "ItemResult"                    "item_ethereal_blade_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_ethereal_blade"
+        }
+    }
+
+    "item_gleipnir_custom_2"
+    {
+        "ID"                            "5061"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_gleipnir_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityTextureName"            "item_gungir"
+        "ItemQuality"                   "artifact"
+        "AbilityCastRange"              "1100"
+        "AbilityCastPoint"              "0.0"
+        "AbilityCooldown"               "18.0"
+        "AbilityManaCost"               "300"
+        "ItemCost"                      "9100"
+        "ItemPurchasable"               "1"
+        "ItemSellable"                  "1"
+    }
+
+    "item_recipe_gleipnir_custom_2"
+    {
+        "ID"                            "5062"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4550"
+        "ItemResult"                    "item_gleipnir_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_gungir"
+        }
+    }
+
+    "item_aether_lens_custom_2"
+    {
+        "ID"                            "5063"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_aether_lens_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "item_aether_lens"
+        
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "4550"
+        "ItemPurchasable"               "1"
+        "ItemSellable"                  "1"
+    }
+
+    "item_recipe_aether_lens_custom_2"
+    {
+        "ID"                            "5064"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "2275"
+        "ItemResult"                    "item_aether_lens_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_aether_lens"
+        }
+    }
+
+    "item_meteor_hammer_custom_2"
+    {
+        "ID"                            "5065"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_meteor_hammer_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING"
+        "AbilityTextureName"            "item_meteor_hammer"
+        
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "5700"
+        "ItemPurchasable"               "1"
+        "ItemSellable"                  "1"
+
+        "AbilityChannelTime"            "1.0"
+        "AbilityCastRange"              "600"
+        "AbilityCastPoint"              "0.0"
+        "AbilityCooldown"               "24.0"
+        "AbilityManaCost"               "100"
+    }
+
+    "item_recipe_meteor_hammer_custom_2"
+    {
+        "ID"                            "5066"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "2850"
+        "ItemResult"                    "item_meteor_hammer_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_meteor_hammer"
+        }
+    }
+
+    "item_dagon_custom_2"
+    {
+        "ID"                            "5067"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_dagon_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityTextureName"            "item_dagon_5"
+        
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "14800"
+        "ItemPurchasable"               "1"
+        "ItemSellable"                  "1"
+
+        "AbilityCastRange"              "700"
+        "AbilityCastPoint"              "0.0"
+        "AbilityCooldown"               "27.0"
+        "AbilityManaCost"               "300"
+    }
+
+    "item_recipe_dagon_custom_2"
+    {
+        "ID"                            "5068"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "7400"
+        "ItemResult"                    "item_dagon_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_dagon_5"
+        }
+    }
+
+    "item_boots_of_bearing_custom_2"
+    {
+        "ID"                            "5069"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_boots_of_bearing_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "item_boots_of_bearing"
+        
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "8450"
+        "ItemPurchasable"               "1"
+        "ItemSellable"                  "1"
+
+        "AbilityCooldown"               "30.0"
+        "AbilityManaCost"               "0"
+    }
+
+    "item_recipe_boots_of_bearing_custom_2"
+    {
+        "ID"                            "5070"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4225"
+        "ItemResult"                    "item_boots_of_bearing_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_boots_of_bearing"
+        }
+    }
+
+    "item_guardian_greaves_custom_2"
+    {
+        "ID"                            "5071"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_guardian_greaves_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "item_guardian_greaves"
+        
+        "ItemQuality"                   "artifact"
+        "ItemCost"                      "8600"
+        "ItemPurchasable"               "1"
+        "ItemSellable"                  "1"
+
+        "AbilityCooldown"               "45.0"
+        "AbilityManaCost"               "0"
+    }
+
+    "item_recipe_guardian_greaves_custom_2"
+    {
+        "ID"                            "5072"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "4300"
+        "ItemResult"                    "item_guardian_greaves_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_guardian_greaves"
+        }
+    }
+
+    "item_vladmir_custom_2"
+    {
+        "ID"                            "5073"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_vladmir_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityTextureName"            "item_vladmir"
+        
+        "AbilityValues"
+        {
+            "bonus_base_damage"         "30"
+            "aura_radius"               "1200"
+        }
+    }
+
+    "item_recipe_vladmir_custom_2"
+    {
+        "ID"                            "5074"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "2200"
+        "ItemResult"                    "item_vladmir_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_vladmir"
+        }
+    }
+
+    "item_power_treads_custom_2"
+    {
+        "ID"                            "5075"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_power_treads_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "power_treads"
+        "ItemCost"                      "2800"
+        "ItemShopTags"                  "artifacts;speed;preattack;str;agi;int"
+        "ItemQuality"                   "artifact"
+    }
+
+    "item_recipe_power_treads_custom_2"
+    {
+        "ID"                            "5076"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "1400" 
+        "ItemResult"                    "item_power_treads_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_power_treads"
+        }
+    }
+
+    "item_phase_boots_custom_2"
+    {
+        "ID"                            "5077"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_phase_boots_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET + DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "phase_boots"
+        "ItemCost"                      "3000"
+        "ItemShopTags"                  "artifacts;speed;preattack;armor"
+        "ItemQuality"                   "artifact"
+    }
+
+    "item_recipe_phase_boots_custom_2"
+    {
+        "ID"                            "5078"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "1500" 
+        "ItemResult"                    "item_phase_boots_custom_2"
+        "AbilityTextureName"            "recipe"
+        "ItemRequirements"
+        {
+            "01"                        "item_phase_boots"
+        }
+    }
+
+    // BRACER T2
+    "item_bracer_custom_2"
+    {
+        "ID"                            "5079"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_bracer_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "bracer"
+        "ItemCost"                      "2020" // 505 * 4
+        "ItemShopTags"                  "artifacts;str;health_regen;health"
+    }
+
+    "item_recipe_bracer_custom_2"
+    {
+        "ID"                            "5080"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "1515" // Para fechar 2020 total (505 base + 1515 recipe)
+        "ItemResult"                    "item_bracer_custom_2"
+        "ItemRequirements"
+        {
+            "01"                        "item_bracer"
+        }
+    }
+
+    // WRAITH BAND T2
+    "item_wraith_band_custom_2"
+    {
+        "ID"                            "5081"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_wraith_band_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "wraith_band"
+        "ItemCost"                      "2020"
+        "ItemShopTags"                  "artifacts;agi;armor;preattack"
+    }
+
+    "item_recipe_wraith_band_custom_2"
+    {
+        "ID"                            "5082"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "1515"
+        "ItemResult"                    "item_wraith_band_custom_2"
+        "ItemRequirements"
+        {
+            "01"                        "item_wraith_band"
+        }
+    }
+
+    // NULL TALISMAN T2
+    "item_null_talisman_custom_2"
+    {
+        "ID"                            "5083"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_null_talisman_custom_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"            "null_talisman"
+        "ItemCost"                      "2020"
+        "ItemShopTags"                  "artifacts;int;mana_regen;mana"
+    }
+
+    "item_recipe_null_talisman_custom_2"
+    {
+        "ID"                            "5084"
+        "BaseClass"                     "item_recipe_arcane_boots"
+        "ItemRecipe"                    "1"
+        "ItemCost"                      "1515"
+        "ItemResult"                    "item_null_talisman_custom_2"
+        "ItemRequirements"
+        {
+            "01"                        "item_null_talisman"
+        }
+    }
+}

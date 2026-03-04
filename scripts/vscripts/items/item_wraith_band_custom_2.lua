@@ -1,0 +1,15 @@
+LinkLuaModifier("modifier_item_wraith_band_custom_2", "items/item_wraith_band_custom_2", LUA_MODIFIER_MOTION_NONE)
+item_wraith_band_custom_2 = class({})
+function item_wraith_band_custom_2:GetIntrinsicModifierName() return "modifier_item_wraith_band_custom_2" end
+
+modifier_item_wraith_band_custom_2 = class({})
+function modifier_item_wraith_band_custom_2:IsHidden() return true end
+function modifier_item_wraith_band_custom_2:GetAttributes() return MODIFIER_ATTRIBUTE_MULTIPLE end
+function modifier_item_wraith_band_custom_2:DeclareFunctions()
+    return {MODIFIER_PROPERTY_STATS_STRENGTH_BONUS, MODIFIER_PROPERTY_STATS_AGILITY_BONUS, MODIFIER_PROPERTY_STATS_INTELLECT_BONUS, MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT, MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS}
+end
+function modifier_item_wraith_band_custom_2:GetModifierBonusStats_Strength() return 8 end
+function modifier_item_wraith_band_custom_2:GetModifierBonusStats_Agility() return 20 end
+function modifier_item_wraith_band_custom_2:GetModifierBonusStats_Intellect() return 8 end
+function modifier_item_wraith_band_custom_2:GetModifierAttackSpeedBonus_Constant() return 24 end
+function modifier_item_wraith_band_custom_2:GetModifierPhysicalArmorBonus() return 8 end

@@ -1,0 +1,498 @@
+"DOTAAbilities"
+{
+	"Version"		"1"
+
+	//=================================================================================================================
+	// Wave Resistance 25%
+	//=================================================================================================================
+	"wave_resist_25"
+	{
+		"BaseClass"         "ability_lua"
+		"ScriptFile"        "abilities/creeps/wave_resist_25.lua"
+		"AbilityBehavior"   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+
+	//=================================================================================================================
+	// Wave Resistance 50%
+	//=================================================================================================================
+	"wave_resist_50"
+	{
+		"BaseClass"         "ability_lua"
+		"ScriptFile"        "abilities/creeps/wave_resist_50.lua"
+		"AbilityBehavior"   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+
+	//=================================================================================================================
+	// Wave Resistance 75%
+	//=================================================================================================================
+	"wave_resist_75"
+	{
+		"BaseClass"         "ability_lua"
+		"ScriptFile"        "abilities/creeps/wave_resist_75.lua"
+		"AbilityBehavior"   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+
+	//=================================================================================================================
+	// Monkey King 
+	//=================================================================================================================
+	"jingu_master"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/jingu_master"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"    "monkey_king_jingu_mastery"
+		"MaxLevel"              "4"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"bonus_damage"          "25 50 75 100"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"lifesteal_pct"         "5 10 15 20"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Legion Commander
+	//=================================================================================================================
+	"duel_reward"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/duel_reward"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName"    "legion_commander_duel"
+		"AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE"
+		
+		"AbilityCastPoint"      "0.3"
+		"AbilityCooldown"       "50.0"
+		"AbilityManaCost"       "75 100 125"
+		"MaxLevel"              "3"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"bonus_damage_per_kill" "10 20 30"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"scepter_bonus"         "10"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Skywrath Mage
+	//=================================================================================================================
+	"skywrath_mystic_flare_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/skywrath_mystic_flare_custom"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityTextureName"    "skywrath_mage_mystic_flare"
+		"AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE"
+		"MaxLevel"              "3"
+		
+		"AbilityCastRange"      "700 800 900"
+		"AbilityCastPoint"      "0.1"
+		"AbilityCooldown"       "60.0 40.0 20.0"
+		"AbilityManaCost"       "300 500 700"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"damage"                "800 1200 1600"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_FLOAT"
+				"duration"              "2.4"
+			}
+			"03"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"radius"                "170"
+			}
+		}
+	}
+
+	"skywrath_concussive_shot_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/skywrath_concussive_shot_custom"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName"    "skywrath_mage_concussive_shot"
+		"MaxLevel"              "4"
+
+		"AbilityCastPoint"      "0.0"
+		"AbilityCooldown"       "15.0 12.0 9.0 6.0"
+		"AbilityManaCost"       "80 85 90 95"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"damage"                "120 180 240 300"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"slow_pct"              "30 35 40 45"
+			}
+			"03"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"slow_duration"         "4"
+			}
+			"04"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"launch_radius"         "1600"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Zeus
+	//=================================================================================================================
+	"zeus_thundergods_wrath_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/zeus_thundergods_wrath_custom"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityTextureName"    "zuus_thundergods_wrath"
+		"MaxLevel"              "3"
+		
+		"AbilityCastPoint"      "0.4"
+		"AbilityCooldown"       "120.0 110.0 100.0"
+		"AbilityManaCost"       "300 400 500"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"damage"                "300 450 600"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_FLOAT"
+				"reveal_duration"       "3.0"
+			}
+			"03"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"reveal_radius"         "500"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Axe
+	//=================================================================================================================
+	"axe_culling_blade_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/axe_culling_blade_custom"
+		"MaxLevel"              "3"
+		"AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityTextureName"    "axe_culling_blade"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags" "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"SpellImmunityType"     "SPELL_IMMUNITY_ENEMIES_YES"
+		
+		"AbilityCastPoint"      "0.3"
+		"AbilityCooldown"       "75 65 55"
+		"AbilityManaCost"       "60 120 180"
+		"AbilityCastRange"      "150"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"kill_threshold"        "250 350 450"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"damage"                "150 250 300"
+			}
+			"03"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"armor_per_kill"        "1 2 3"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Rubik
+	//=================================================================================================================
+	"rubick_dagon_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/rubick_dagon_custom"
+		"AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE"
+		"MaxLevel"              "3"
+		"LevelsBetweenUpgrades" "6"
+		
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityTextureName"    "rubick_empty1"
+		
+		"AbilityCastPoint"      "0.1"
+		"AbilityCooldown"       "20 15 10"
+		"AbilityManaCost"       "100 150 200"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"    "FIELD_INTEGER"
+				"damage"      "400 700 1000"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Pugna
+	//=================================================================================================================
+	"pugna_ward_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/pugna_ward_custom"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityTextureName"    "pugna_nether_ward"
+		"MaxLevel"              "4"
+		
+		"AbilityCastPoint"      "0.2"
+		"AbilityCooldown"       "35"
+		"AbilityManaCost"       "80 120 160 200"
+		"AbilityCastRange"      "600"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_FLOAT"
+				"attack_rate"           "1.5 1.2 0.9 0.6"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"ward_damage"           "60 90 120 150"
+			}
+			"03"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"radius"                "1000"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Vengeful Spirit
+	//=================================================================================================================
+	"vengeful_spirit_mastery_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/vengeful_spirit_mastery_custom"
+		"AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"              "3"
+		"LevelsBetweenUpgrades" "6"
+		"AbilityTextureName"    "vengefulspirit_nether_swap"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"bonus_agility"         "20 40 60"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"bonus_attack_range"    "100 200 300"
+			}
+			"03"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"bonus_damage"          "30 60 90"
+			}
+			"04"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"armor_reduction"       "-4 -8 -12"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Terrorblade
+	//=================================================================================================================
+	"terrorblade_reflection_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/terrorblade_reflection_custom"
+		"AbilityTextureName"    "terrorblade_reflection"
+		"AbilityType"           "DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		
+		"HasAOE"                "1"
+		"AbilityCastRange"      "700"
+		"AbilityCastPoint"      "0.3"
+		"AbilityCooldown"       "22 20 18 16"
+		"AbilityManaCost"       "35 45 55 65"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_FLOAT"
+				"duration"              "2 3 4 5"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"radius"                "400"
+			}
+			"03"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"illusion_damage"       "25 35 45 55"
+			}
+		}
+	}
+
+	"terrorblade_mastery_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/terrorblade_mastery_custom"
+		"AbilityTextureName"    "terrorblade_metamorphosis"
+		"AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"              "3"
+		"LevelsBetweenUpgrades" "6"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"illusion_bonus_damage_pct" "25 50 75"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Silencer
+	//=================================================================================================================
+	"silencer_glaives_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/silencer_glaives_custom"
+		"AbilityTextureName"    "silencer_glaives_of_wisdom"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"MaxLevel"              "4"
+		
+		"AbilityManaCost"       "15"
+		"AbilityCastRange"      "600"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"intellect_damage_pct"  "15 35 55 75"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"int_steal_per_hit"     "1"
+			}
+			"03"
+			{
+				"var_type"              "FIELD_FLOAT"
+				"int_steal_duration"    "10 20 30 40"
+			}
+			"04"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"scepter_bonus_damage"  "25"
+			}
+		}
+	}
+
+	"silencer_mastery_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/silencer_mastery_custom"
+		"AbilityTextureName"    "silencer_global_silence"
+		"AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"              "3"
+		"LevelsBetweenUpgrades" "6"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"glaive_bounces"        "1 2 3"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Spectre
+	//=================================================================================================================
+	"spectre_haunt_mastery_custom"
+	{
+		"BaseClass"             "ability_lua"
+		"ScriptFile"            "abilities/spectre_haunt_mastery_custom"
+		"AbilityTextureName"    "spectre_haunt"
+		"AbilityType"           "DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"              "3"
+		"LevelsBetweenUpgrades" "6"
+
+		"AbilityCooldown"       "5.0 3.5 2.0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_FLOAT"
+				"bonus_attack_interval" "0.2" // Pequeno delay entre os dois ataques
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"scepter_pure_damage"   "20 40 60"
+			}
+		}
+	}
+}

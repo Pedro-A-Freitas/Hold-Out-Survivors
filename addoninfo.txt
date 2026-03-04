@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+    "maps"  "hold_out_survivors"
+    
+    "hold_out_survivors"
+    {
+        "MaxPlayers"    "5"
+        "IsPlayable"    "1"
+    }
+}

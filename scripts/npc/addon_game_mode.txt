@@ -1,0 +1,7 @@
+"DOTAAddon"
+{
+    "AddonName"            "seu_addon"
+
+    "CustomAbilitiesFile"  "scripts/npc/npc_abilities_custom.txt"
+    "CustomHeroesFile"     "scripts/npc/npc_heroes_custom.txt"
+}

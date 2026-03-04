@@ -1,0 +1,96 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	//==================================================
+	// HERO: npc_dota_hero_legion_commander
+	//==================================================
+	"npc_dota_hero_legion_commander"
+    {
+        "Ability6"  "duel_reward"
+    }
+
+	//==================================================
+    // HERO: npc_dota_hero_skywrath_mage
+    //==================================================
+    "npc_dota_hero_skywrath_mage"
+    {
+        "Ability2"  "skywrath_concussive_shot_custom"             
+        "Ability6"  "skywrath_mystic_flare_custom"               
+    }
+
+	//==================================================
+    // HERO: npc_dota_hero_zuus
+    //==================================================
+    "npc_dota_hero_zuus"
+    {
+        "Ability6"  "zeus_thundergods_wrath_custom"               
+    }
+
+	//==================================================
+    // HERO: npc_dota_hero_rubick
+    //==================================================
+    "npc_dota_hero_rubick"
+    {
+        "Ability6"  "rubick_dagon_custom"               
+    }
+
+	//==================================================
+    // HERO: npc_dota_hero_terrorblade
+    //==================================================
+    "npc_dota_hero_terrorblade"
+    {
+        "Ability1"  "terrorblade_reflection_custom"
+        "Ability6"  "terrorblade_mastery_custom"               
+    }
+
+	//==================================================
+    // HERO: npc_dota_hero_spectre
+    //==================================================
+    "npc_dota_hero_spectre"
+    {
+        "Ability6"  "spectre_haunt_mastery_custom"               
+    }
+
+	//==================================================
+    // HERO: npc_dota_hero_vengefulspirit
+    //==================================================
+    "npc_dota_hero_vengefulspirit"
+    {
+        "Ability6"  "vengeful_spirit_mastery_custom"               
+    }
+
+	//==================================================
+    // HERO: npc_dota_hero_silencer
+    //==================================================
+    "npc_dota_hero_silencer"
+    {
+        "Ability2"  "silencer_glaives_custom"
+        "Ability6"  "silencer_mastery_custom"               
+    }
+
+	//==================================================
+    // HERO: npc_dota_hero_pugna
+    //==================================================
+    "npc_dota_hero_pugna"
+    {
+        "Ability3"  "pugna_ward_custom"               
+    }
+
+    //==================================================
+    // HERO: npc_dota_hero_monkey_king
+    //==================================================
+    "npc_dota_hero_monkey_king"
+    {
+        "Ability4" "jingu_master" 
+    }
+
+    //==================================================
+    // HERO: npc_dota_hero_axe
+    //==================================================
+    "npc_dota_hero_axe"
+    {
+        "Ability6" "axe_culling_blade_custom" 
+    }
+}
