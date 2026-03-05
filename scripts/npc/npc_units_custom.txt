@@ -2624,17 +2624,15 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"pangolier_lucky_shot"			// Ability 1
-		"Ability2"					"antimage_mana_break"			// Ability 2
-		"Ability3"					"troll_warlord_fervor"			// Ability 3
-		"Ability12"					"juggernaut_blade_dance"			// Ability 4
-		"Ability5"					"dawnbreaker_luminosity"			// Ability 5
-		"Ability6"					"sniper_headshot"			// Ability 6
-		"Ability7"					"skeleton_king_mortal_strike"			// Ability 7
-		"Ability8"					"chaos_knight_chaos_strike"			// Ability 8
-		"Ability9"					"phantom_assassin_coup_de_grace"			// Ability 9
-		"Ability10"					"wave_resist_75"			// Ability 10
-
+		"Ability1"					"pangolier_lucky_shot"
+		"Ability2"					"antimage_mana_break"
+		"Ability3"					"juggernaut_blade_dance"
+		"Ability4"					"dawnbreaker_luminosity"
+		"Ability5"					"sniper_headshot"
+		"Ability6"					"skeleton_king_mortal_strike"
+		"Ability7"					"chaos_knight_chaos_strike"
+		"Ability8"					"phantom_assassin_coup_de_grace"
+		"Ability9"					"wave_resist_75"
 		// Armor
 		//----------------------------------------------------------------
 		"ArmorPhysical"				"100"			// Physical protection.
