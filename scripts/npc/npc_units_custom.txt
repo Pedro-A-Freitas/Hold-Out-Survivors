@@ -2547,8 +2547,7 @@
 		"Ability4"					"wave_resist_75"			// Ability 4
 		"Ability5"					"medusa_mana_shield"			// Ability 5
 		"Ability6"					"elder_titan_natural_order"			// Ability 6
-		"Ability7"					"juggernaut_blade_dance"			// Ability 7
-
+		
 		// Armor
 		//----------------------------------------------------------------
 		"ArmorPhysical"				"60"			// Physical protection.

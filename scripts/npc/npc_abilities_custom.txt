@@ -561,4 +561,72 @@
 		"MaxLevel"                      "3"
 		"AbilityCastRange"              "1000"
 	}
+
+	"bloodseeker_custom_thirst"
+	{
+		"ID"                            "6001" // Use um ID que não esteja em uso
+		"BaseClass"                     "ability_lua"
+		"ScriptFile"                    "abilities/bloodseeker_custom_thirst.lua"
+		"MaxLevel"                      "4"
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"            "bloodseeker_thirst"
+		
+		// Valores apenas para aparecer na Tooltip (o Lua faz o trabalho real)
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"bonus_magical_damage"  "50 100 150 200"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"bonus_movement_speed"  "5 10 15 20"
+			}
+		}
+	}
+
+	"batrider_custom_fiery_presence"
+	{
+		"ID"                            "6002"
+		"BaseClass"                     "ability_lua"
+		"ScriptFile"                    "abilities/batrider_custom_fiery_presence.lua"
+		"MaxLevel"                      "3"
+		"AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"            "batrider_flaming_lasso" // Usa o ícone da ult original
+	}
+
+	"underlord_custom_abyssal_retribution"
+	{
+		"ID"                            "6003" // Use um ID que não esteja em uso no seu mod
+		"BaseClass"                     "ability_lua"
+		"ScriptFile"                    "abilities/underlord_custom_abyssal_retribution.lua"
+		"MaxLevel"                      "3"
+		"AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityTextureName"            "abyssal_underlord_dark_rift"
+		
+		// Custos e Cooldown
+		"AbilityCastPoint"              "0.4"
+		"AbilityCooldown"               "100 80 60"
+		"AbilityManaCost"               "150 200 250"
+
+		// Valores para a Tooltip e para o Script Lua
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_FLOAT"
+				"duration"              "3.0 4.0 5.0"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"radius"                "300"
+			}
+		}
+	}
 }
