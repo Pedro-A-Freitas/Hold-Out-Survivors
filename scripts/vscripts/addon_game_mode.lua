@@ -131,8 +131,6 @@ function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)
                 unit:SetDeathXP(0)
                 unit:SetIdleAcquire(false)
 
-                waveAlive = waveAlive + 1
-
 				local upskill1 = unit:FindAbilityByName("tidehunter_kraken_shell")
                 if upskill1 then
                     upskill1:SetLevel(4)
@@ -582,317 +580,388 @@ function SpawnWave(n)
 
     elseif n == 34 then
         SpawnWave34()
-
-    elseif n == 35 then
-        SpawnWave35()
     
     end
 
 end
 
--- WAVES --
+-- WAVES
 
 function SpawnWave1()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1", players)
 end
 
 function SpawnWave2()
+    local spawnPoints = 2
+    waveAlive = 2 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave2", players)
 	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave2", players)
 end
 
 function SpawnWave3()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_gnoll_range_wave3", players)
 end
 
 function SpawnWave4()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
 	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_golem_melee_wave4", players)
 end
 
 function SpawnWave5()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
 	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_summuner_range_wave5", players)
 end
 
 function SpawnWave6()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragon_range_wave6", players)
 end
 
 function SpawnWave7()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_siege_range_wave7", players)
 end
 
 function SpawnWave8()
+    local spawnPoints = 2
+    waveAlive = 2 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave8", players)
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave8", players)
 end
 
 function SpawnWave9()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_satyr_range_wave9", players)
 end
 
 function SpawnWave10()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave10", players)
 end
 
 function SpawnWave11()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_priest_range_wave11", players)
 end
 
 function SpawnWave12()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_golem_melee_wave12", players)
 end
 
 function SpawnWave13()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_ghost_range_wave13", players)
 end
 
 function SpawnWave14()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_wolf_melee_wave14", players)
 end
 
 function SpawnWave15()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_harpy_range_wave15", players)
 end
 
 function SpawnWave16()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_centaur_melee_wave16", players)
 end
 
 function SpawnWave17()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_frog_range_wave17", players)
 end
 
 function SpawnWave18()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave18", players)
 end
 
 function SpawnWave19()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_troll_range_wave19", players)
 end
 
 function SpawnWave20()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave20", players)
 end
 
 function SpawnWave21()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_harpy_range_wave21", players)
 end
 
 function SpawnWave22()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_furbolg_melee_wave22", players)
 end
 
 function SpawnWave23()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragonspawn_range_wave23", players)
 end
 
 function SpawnWave24()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_satyr_melee_wave24", players)
 end
 
 function SpawnWave25()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_spawn_range_wave25", players)
 end
 
 function SpawnWave26()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_ogre_melee_wave26", players)
 end
 
 function SpawnWave27()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_lizard_range_wave27", players)
 end
 
 function SpawnWave28()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_vulture_melee_wave28", players)
 end
 
 function SpawnWave29()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_lizard_range_wave29", players)
 end
 
 function SpawnWave30()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints * players
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave30", players)
 end
 
 function SpawnWave31()
-
-    if Wave31Started then return end
-    Wave31Started = true
-
-    local waves = {
-        {
-            "npc_dota_neutral_kobold_melee_wave1"
-        },
-        {
-            "npc_dota_neutral_creep_melee_wave2",
-            "npc_dota_neutral_creep_range_wave2"
-        },
-        {
-            "npc_dota_neutral_gnoll_range_wave3"
-        },
-        {
-            "npc_dota_neutral_golem_melee_wave4"
-        },
-        {
-            "npc_dota_neutral_summuner_range_wave5"
-        },
-        {
-            "npc_dota_neutral_dragon_range_wave6"
-        },
-        {
-            "npc_dota_neutral_siege_range_wave7"
-        },
-        {
-            "npc_dota_neutral_creep_melee_wave8",
-            "npc_dota_neutral_creep_range_wave8"
-        },
-        {
-            "npc_dota_neutral_satyr_range_wave9"
-        },
-        {
-            "npc_dota_neutral_roshan_melee_wave10"
-        }
+    local monstros = {
+        { "npc_dota_neutral_kobold_melee_wave1" },
+        { "npc_dota_neutral_creep_melee_wave2", "npc_dota_neutral_creep_range_wave2" },
+        { "npc_dota_neutral_gnoll_range_wave3" },
+        { "npc_dota_neutral_golem_melee_wave4" },
+        { "npc_dota_neutral_summuner_range_wave5" },
+        { "npc_dota_neutral_dragon_range_wave6" },
+        { "npc_dota_neutral_siege_range_wave7" },
+        { "npc_dota_neutral_creep_melee_wave8", "npc_dota_neutral_creep_range_wave8" },
+        { "npc_dota_neutral_satyr_range_wave9" },
+        { "npc_dota_neutral_roshan_melee_wave10" }
     }
 
+    local unidadesPorSpawn = 0
+    for _, subwave in ipairs(monstros) do
+        unidadesPorSpawn = unidadesPorSpawn + #subwave
+    end
+
+    local spawnPoints = 2 
+    
+    waveAlive = unidadesPorSpawn * spawnPoints * players
+    
+    _G.IsSpawningSubWaves = true
+    _G.WaveInProgress = true
+
+    print("Wave 31 iniciada! Total de inimigos esperado: " .. waveAlive)
+
     local index = 1
-    local spawnDelay = 10
-
-    GameRules:GetGameModeEntity():SetContextThink("Wave31Think", function()
-
-        if index > #waves then
-            return nil
+    GameRules:GetGameModeEntity():SetContextThink("TimerWave31", function()
+        
+        if index > #monstros then
+            _G.IsSpawningSubWaves = false
+            return nil 
         end
 
-        for _, unitName in ipairs(waves[index]) do
+        for _, unitName in ipairs(monstros[index]) do
             GameRules.AddonTemplate:SpawnEnemy(unitName, players)
         end
-
+        
         index = index + 1
-
-        return spawnDelay
-
+        return 10.0
     end, 0)
-
 end
 
 function SpawnWave32()
-
-    if Wave32Started then return end
-    Wave32Started = true
-
-    local waves = {
-        {
-            "npc_dota_neutral_priest_range_wave11"
-        },
-        {
-            "npc_dota_neutral_golem_melee_wave12"
-        },
-        {
-            "npc_dota_neutral_ghost_range_wave13"
-        },
-        {
-            "npc_dota_neutral_wolf_melee_wave14"
-        },
-        {
-            "npc_dota_neutral_harpy_range_wave15"
-        },
-        {
-            "npc_dota_neutral_centaur_melee_wave16"
-        },
-        {
-            "npc_dota_neutral_frog_range_wave17"
-        },
-        {
-            "npc_dota_neutral_kobold_melee_wave18"
-        },
-        {
-            "npc_dota_neutral_troll_range_wave19"
-        },
-        {
-            "npc_dota_neutral_roshan_melee_wave20"
-        }
+    local monstros = {
+        { "npc_dota_neutral_priest_range_wave11" },
+        { "npc_dota_neutral_golem_melee_wave12" },
+        { "npc_dota_neutral_ghost_range_wave13" },
+        { "npc_dota_neutral_wolf_melee_wave14" },
+        { "npc_dota_neutral_harpy_range_wave15" },
+        { "npc_dota_neutral_centaur_melee_wave16" },
+        { "npc_dota_neutral_frog_range_wave17" },
+        { "npc_dota_neutral_kobold_melee_wave18" },
+        { "npc_dota_neutral_troll_range_wave19" },
+        { "npc_dota_neutral_roshan_melee_wave20" }
     }
 
+    local unidadesPorSpawn = 0
+    for _, subwave in ipairs(monstros) do
+        unidadesPorSpawn = unidadesPorSpawn + #subwave
+    end
+
+    local spawnPoints = 2 
+    
+    waveAlive = unidadesPorSpawn * spawnPoints * players
+    
+    _G.IsSpawningSubWaves = true
+    _G.WaveInProgress = true
+
     local index = 1
-    local spawnDelay = 15
-
-    GameRules:GetGameModeEntity():SetContextThink("Wave32Think", function()
-
-        if index > #waves then
-            return nil
+    GameRules:GetGameModeEntity():SetContextThink("TimerWave32", function()
+        if index > #monstros then
+            _G.IsSpawningSubWaves = false
+            return nil 
         end
 
-        for _, unitName in ipairs(waves[index]) do
+        for _, unitName in ipairs(monstros[index]) do
             GameRules.AddonTemplate:SpawnEnemy(unitName, players)
         end
-
+        
         index = index + 1
-
-        return spawnDelay
-
+        return 15.0
     end, 0)
-
 end
 
 function SpawnWave33()
-
-    if Wave33Started then return end
-    Wave33Started = true
-
-    local waves = {
-        {
-            "npc_dota_neutral_harpy_range_wave21"
-        },
-        {
-            "npc_dota_neutral_furbolg_melee_wave22"
-        },
-        {
-            "npc_dota_neutral_dragonspawn_range_wave23"
-        },
-        {
-            "npc_dota_neutral_satyr_melee_wave24"
-        },
-        {
-            "npc_dota_neutral_spawn_range_wave25"
-        },
-        {
-            "npc_dota_neutral_ogre_melee_wave26"
-        },
-        {
-            "npc_dota_neutral_lizard_range_wave27"
-        },
-        {
-            "npc_dota_neutral_vulture_melee_wave28"
-        },
-        {
-            "npc_dota_neutral_lizard_range_wave29"
-        },
-        {
-            "npc_dota_neutral_roshan_melee_wave30"
-        }
+    local monstros = {
+        { "npc_dota_neutral_priest_range_wave11" },
+        { "npc_dota_neutral_golem_melee_wave12" },
+        { "npc_dota_neutral_ghost_range_wave13" },
+        { "npc_dota_neutral_wolf_melee_wave14" },
+        { "npc_dota_neutral_harpy_range_wave15" },
+        { "npc_dota_neutral_centaur_melee_wave16" },
+        { "npc_dota_neutral_frog_range_wave17" },
+        { "npc_dota_neutral_kobold_melee_wave18" },
+        { "npc_dota_neutral_troll_range_wave19" },
+        { "npc_dota_neutral_roshan_melee_wave20" }
     }
 
+    local unidadesPorSpawn = 0
+    for _, subwave in ipairs(monstros) do
+        unidadesPorSpawn = unidadesPorSpawn + #subwave
+    end
+
+    local spawnPoints = 2 
+
+    waveAlive = unidadesPorSpawn * spawnPoints * players
+    
+    _G.IsSpawningSubWaves = true
+    _G.WaveInProgress = true
+
     local index = 1
-    local spawnDelay = 20
-
-    GameRules:GetGameModeEntity():SetContextThink("Wave33Think", function()
-
-        if index > #waves then
-            return nil
+    GameRules:GetGameModeEntity():SetContextThink("TimerWave33", function()
+        if index > #monstros then
+            _G.IsSpawningSubWaves = false
+            return nil 
         end
 
-        for _, unitName in ipairs(waves[index]) do
+        for _, unitName in ipairs(monstros[index]) do
             GameRules.AddonTemplate:SpawnEnemy(unitName, players)
         end
-
+        
         index = index + 1
-
-        return spawnDelay
-
+        return 20.0
     end, 0)
-
 end
 
 function SpawnWave34()
+    local spawnPoints = 2
+    waveAlive = 1 * spawnPoints
+    _G.IsSpawningSubWaves = false
+    _G.WaveInProgress = true
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragon_range_wave34")
 end

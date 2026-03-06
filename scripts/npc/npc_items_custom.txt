@@ -1170,7 +1170,7 @@
         "BaseClass"                     "item_lua"
         "ScriptFile"                    "items/item_tome_spd_custom"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-        "AbilityTextureName"            "boots_of_speed" // Usando o ícone da bota enquanto você não põe outro
+        "AbilityTextureName"            "tome_of_knowledge"
         
         "ItemCost"                      "750" // Ajuste o preço como preferir
         "ItemInitialCharges"            "1"

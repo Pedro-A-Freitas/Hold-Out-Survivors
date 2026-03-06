@@ -2544,9 +2544,10 @@
 		"Ability1"					"roshan_bash"			// Ability 1
 		"Ability2"					"life_stealer_feast"			// Ability 2
 		"Ability3"					"bloodseeker_thirst"			// Ability 3
-		"Ability4"					"wave_resist_75"			// Ability 5
-		"Ability5"					"medusa_mana_shield"			// Ability 6
-		"Ability6"					"elder_titan_natural_order"			// Ability 7
+		"Ability4"					"wave_resist_75"			// Ability 4
+		"Ability5"					"medusa_mana_shield"			// Ability 5
+		"Ability6"					"elder_titan_natural_order"			// Ability 6
+		"Ability7"					"juggernaut_blade_dance"			// Ability 7
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2630,8 +2631,8 @@
 		"Ability5"					"sniper_headshot"
 		"Ability6"					"skeleton_king_mortal_strike"
 		"Ability7"					"chaos_knight_chaos_strike"
-		"Ability8"					"phantom_assassin_coup_de_grace"
-		"Ability9"					"wave_resist_75"
+		"Ability8"					"wave_resist_75"
+
 		// Armor
 		//----------------------------------------------------------------
 		"ArmorPhysical"				"100"			// Physical protection.
